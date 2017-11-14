@@ -1,3 +1,5 @@
+// flow
+
 import {
     describe,
     it,
@@ -8,6 +10,6 @@ import { concat } from './index'
 
 describe('concat', () => {
     it('returns concatenated string', () => {
-        assert('1footrue' === concat([1, 'foo', true]))
+        assert('1footrue' === concat(1, 'foo', true))
     })
 })
