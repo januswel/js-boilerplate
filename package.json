@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint *.js",
-    "pretty-print": "prettier --write *.js",
-    "test": "kocha --require babel-register test.js",
+    "lint": "eslint $(find src test -name \"*.js\")",
+    "pretty-print": "prettier --write $(find src test -name \"*.js\")",
+    "test": "kocha --require babel-register test",
     "type-check": "flow"
   },
   "author": "",

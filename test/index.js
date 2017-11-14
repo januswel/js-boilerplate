@@ -3,7 +3,7 @@
 import { describe, it } from 'kocha'
 import assert from 'assert'
 
-import { concat } from './index'
+import { concat } from '../src/index'
 
 describe('concat', () => {
   it('returns concatenated string', () => {
