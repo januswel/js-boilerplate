@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "kocha --require babel-register test.js",
-    "type-check": "flow"
+    "type-check": "flow",
+    "pretty-print": "prettier --write *.js"
   },
   "author": "",
   "license": "MIT",
@@ -18,6 +19,7 @@
     "flow-bin": "^0.59.0",
     "kocha": "^1.8.1",
     "power-assert": "^1.4.4",
+    "prettier": "1.8.2",
     "unassert": "^1.5.1"
   }
 }
