@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "kocha --require babel-register test.js",
     "type-check": "flow"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "flow-bin": "^0.59.0"
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "flow-bin": "^0.59.0",
+    "kocha": "^1.8.1"
   }
 }
